@@ -1,0 +1,23 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 info pnpm": {
+    "err": {
+      "name": "Error",
+      "message": "not found: vue-router@next",
+      "code": "ENOENT",
+      "stack": "Error: not found: vue-router@next\n    at getNotFoundError (C:\\Users\\pc003\\AppData\\Roaming\\npm\\pnpm-global\\5\\node_modules\\.pnpm\\pnpm@6.27.1\\node_modules\\pnpm\\dist\\pnpm.cjs:41493:51)\n    at Function.whichSync [as sync] (C:\\Users\\pc003\\AppData\\Roaming\\npm\\pnpm-global\\5\\node_modules\\.pnpm\\pnpm@6.27.1\\node_modules\\pnpm\\dist\\pnpm.cjs:41570:13)\n    at getCommandAbsolutePathSync (C:\\Users\\pc003\\AppData\\Roaming\\npm\\pnpm-global\\5\\node_modules\\.pnpm\\pnpm@6.27.1\\node_modules\\pnpm\\dist\\pnpm.cjs:43135:44)\n    at default_1 (C:\\Users\\pc003\\AppData\\Roaming\\npm\\pnpm-global\\5\\node_modules\\.pnpm\\pnpm@6.27.1\\node_modules\\pnpm\\dist\\pnpm.cjs:43144:32)\n    at C:\\Users\\pc003\\AppData\\Roaming\\npm\\pnpm-global\\5\\node_modules\\.pnpm\\pnpm@6.27.1\\node_modules\\pnpm\\dist\\pnpm.cjs:176351:39"
+    }
+  },
+  "2 error pnpm": {
+    "code": "ERR_PNPM_RECURSIVE_EXEC_FIRST_FAIL",
+    "prefix": "D:\\project\\vite\\vite-app",
+    "err": {
+      "name": "pnpm",
+      "message": "not found: vue-router@next",
+      "code": "ERR_PNPM_RECURSIVE_EXEC_FIRST_FAIL",
+      "stack": "Error: not found: vue-router@next\n    at getNotFoundError (C:\\Users\\pc003\\AppData\\Roaming\\npm\\pnpm-global\\5\\node_modules\\.pnpm\\pnpm@6.27.1\\node_modules\\pnpm\\dist\\pnpm.cjs:41493:51)\n    at Function.whichSync [as sync] (C:\\Users\\pc003\\AppData\\Roaming\\npm\\pnpm-global\\5\\node_modules\\.pnpm\\pnpm@6.27.1\\node_modules\\pnpm\\dist\\pnpm.cjs:41570:13)\n    at getCommandAbsolutePathSync (C:\\Users\\pc003\\AppData\\Roaming\\npm\\pnpm-global\\5\\node_modules\\.pnpm\\pnpm@6.27.1\\node_modules\\pnpm\\dist\\pnpm.cjs:43135:44)\n    at default_1 (C:\\Users\\pc003\\AppData\\Roaming\\npm\\pnpm-global\\5\\node_modules\\.pnpm\\pnpm@6.27.1\\node_modules\\pnpm\\dist\\pnpm.cjs:43144:32)\n    at C:\\Users\\pc003\\AppData\\Roaming\\npm\\pnpm-global\\5\\node_modules\\.pnpm\\pnpm@6.27.1\\node_modules\\pnpm\\dist\\pnpm.cjs:176351:39"
+    }
+  }
+}

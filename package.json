@@ -8,11 +8,11 @@
   },
   "dependencies": {
     "axios": "^0.25.0",
-    "pinia": "^2.0.9",
+    "pinia": "^2.0.10",
     "postcss-px-to-viewport": "^1.1.1",
     "qs": "^6.10.3",
     "sass": "^1.49.0",
-    "unplugin-vue-components": "^0.17.14",
+    "unplugin-vue-components": "^0.17.15",
     "vant": "^3.4.2",
     "vite-plugin-style-import": "^1.4.1",
     "vue": "^3.2.25",

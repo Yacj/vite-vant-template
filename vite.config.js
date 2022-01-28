@@ -34,7 +34,7 @@ export default defineConfig({
         })
     ],
     build: {
-        minify: 'terser' // 混淆器，terser构建后文件体积更小
+        minify: 'terser', // 混淆器，terser构建后文件体积更小
     },
     server: {
         host: '0.0.0.0',
@@ -43,8 +43,9 @@ export default defineConfig({
         //反向代理配置，注意rewrite写法，开始没看文档在这里踩了坑
         // proxy: {
         //     '/api': {
-        //         target: 'http://192.168.99.223:3000',   //代理接口
+        //         target: '',   //代理接口
         //         changeOrigin: true,
+        //         rewrite: (path) => path.replace(/^\/api/, '')
         //     }
         // }
     },
